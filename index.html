@@ -14,6 +14,24 @@
 <!-- 폰트어썸 불러오기 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
+
+<!-- 토스트 UI 시작 -->
+<!-- 하이라이트 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/highlight.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.4.1/styles/default.min.css">
+
+<!-- 토스트 UI 에디터, 자바스크립트 코어 -->
+<script src="https://uicdn.toast.com/editor/latest/toastui-editor-all.min.js"></script>
+
+<!-- 코드 미러 라이브러리 추가, 토스트 UI 에디터에서 사용됨 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css" />
+<!-- 토스트 UI 에디터, CSS 코어 -->
+<link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
+
+<!-- 토스트 UI 에디터, 신택스 하이라이트 플러그인 추가 -->
+<script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js"></script>
+<!-- 토스트 UI 끝 -->
+
 <link rel="stylesheet" href="common.css">
 <script src="common.js" defer></script>
 <link rel="stylesheet" href="index.css">
@@ -114,9 +132,73 @@
 </aside>
 <!-- 모바일 사이드 바 끝 -->
 <hr>
-<main class="con">
-  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit error tenetur numquam nulla, ullam delectus deserunt dolor harum corporis autem culpa obcaecati saepe unde odio ad rem cupiditate earum rerum?
+<main>
+  <section class="section-latest-articles con-min-width">
+    <div class="con">
+      <div class="article-list-box"> <ul>
+            <li>
+              <h1>JS</h1>
+              <div>2020-01-12 12:12:14</div>
+              <div>
+                <script type="text/x-template">
+# 자바스크립트 사용법
+```html
+<<!--REPLACE:script-->>
+var a = 10;
+</<!--REPLACE:script-->>
+<div class="a"></div>
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+               </div>
+               </li>
+              <li>
+            </li>
+         <li>
+              <h1>codepen</h1>
+              <div>2020-01-12 12:12:14</div>
+              <div>
+                <script type="text/x-template">
+# HTML h1 사용법
+```codepen
+https://codepen.io/jangka44/embed/RwGewxQ?height=500&theme-id=light&default-tab=html,result
+```
+
+```youtube
+NrRvmmPL0oY
+```
+
+# CSS 색깔 넣는법
+```
+글자색
+
+<style>
+    .blue { color: blue;}
+    .green { color: green;}
+    .silver { color: silver;}
+</style>
+
+배경색
+
+<style>
+  .blue {background-color: blue;}      
+  .green {background-color: green;}
+  .silver {background-color: silver;} 
+</style>
+
+```
+                </script>
+                <div class="toast-ui-viewer"></div>
+               </div>
+               </li>
+              <li>
+            </li>
+          </ul>      
+      </div>
+    </div>
+  </section>
 </main>
+
 <hr>
 <!-- 바텀 탑바 시작 -->
 <footer class="bottom-bar con-min-width">
