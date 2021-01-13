@@ -332,3 +332,35 @@
   display:block;
   padding-top:calc(100% / 16 * 9);
 }
+
+/* 마우스 */
+* {
+  cursor:none;
+}
+
+.cursor {
+  position:fixed;
+  width:10px;
+  height:10px;
+  border-radius:50%;
+  background-color:#9966CC;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  mix-blend-mode:difference;
+  z-index:10;
+}
+
+.cursor-shadow {
+  position:fixed;
+  width:20px;
+  height:20px;
+  border-radius:50%;
+  background-color:#6600CC;
+  pointer-events:none;
+  transform:translateX(-50%) translateY(-50%);
+  transition:top .3s, left .3s;
+  mix-blend-mode:difference;
+  z-index:9;
+}
+
+/* 마우스 끝  */
