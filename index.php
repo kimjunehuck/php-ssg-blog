@@ -37,7 +37,7 @@ var a = 10;
             </li>
             
             <li>
-              <h1 class="article-list-box__title">자바스크립트 태그</h1>
+              <h1 class="article-list-box__title">HTML , CSS</h1>
               <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
                <div class="article-list-box__writer">
                  <span>김준혁</span>
