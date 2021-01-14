@@ -164,9 +164,6 @@ a {
   color:#7E00F5
 }
 
-.top-bar__menu-box-1 > ul > li {
-  
-}
 
 .top-bar__menu-box-1 > ul > li > a {
   font-weight:bold;
@@ -308,9 +305,6 @@ a {
   min-height:100vh;
 }
 
-.body-content > * {
-  
-}
 
 .body-content > main {
   flex-grow:1;
