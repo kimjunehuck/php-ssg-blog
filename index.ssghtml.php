@@ -23,6 +23,7 @@ require_once "head.php";
         <li>
           <h1 class="article-list-box__title"><a href="article_detail_2.ssghtml.php"><?=$article2["title"]?></a></h1>
           <div class="article-list-box__reg-date"><?=$article2["regDate"]?></div>
+
           <div class="article-list-box__writer">
             <span><?=$article2["writerName"]?></span>
             <span><?=$article2["writerAvatar"]?></span>
