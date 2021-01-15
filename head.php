@@ -68,13 +68,13 @@
 <!-- 탑바 시작 -->
 <header class="top-bar con-min-width visible-md-up">
   <div class="con height-100p flex flex-jc-sb">
-    <a href="#" class="logo">
+    <a href="index.sghtml.php" class="logo">
      <span><i class="fab fa-codepen"></i></i></span>
   <span>Codepen.io</span></a>
     <nav class="top-bar__menu-box-1 height-100p">
       <ul class="flex height-100p">
         <li>
-          <a href="index.sghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
+          <a href="index.ssghtml.php" class="flex flex-jc-c flex-ai-c height-100p">
             <span><i class="fas fa-home"></i></span>
             <span>HOME</span>
           </a>

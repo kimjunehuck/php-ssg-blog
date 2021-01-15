@@ -3,6 +3,9 @@ $originFiles = [
     "index.ssghtml.php",
     "about.ssghtml.php",
     "pf.ssghtml.php",
+    "article_detail_1.ssghtml.php",
+    "article_detail_2.ssghtml.php",
+    "article_detail_3.ssghtml.php",
 ];
 
 foreach ( $originFiles as $index => $originFile ) {
@@ -15,4 +18,4 @@ foreach ( $originFiles as $index => $originFile ) {
     file_put_contents($distFileName, $newSource);
 
     echo "{$index} : {$distFileName} 생성됨\n";
-} 
+}

@@ -1,4 +1,5 @@
 <?php
+require_once "deta.php";
 require_once "head.php";
 ?>
 

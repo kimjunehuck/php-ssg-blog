@@ -291,6 +291,7 @@ a {
 .bottom-bar {
   background-color:#DDDBEF;
   color:#7E00F5;  
+  margin-top:30px;
 }
 
 .bottom-bar > .con {
