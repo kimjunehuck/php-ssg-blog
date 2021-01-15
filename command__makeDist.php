@@ -5,7 +5,6 @@ $originFiles = [
     "pf.ssghtml.php",
     "article_detail_1.ssghtml.php",
     "article_detail_2.ssghtml.php",
-    "article_detail_3.ssghtml.php",
 ];
 
 foreach ( $originFiles as $index => $originFile ) {
