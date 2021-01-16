@@ -66,7 +66,7 @@
 <div class="body-content">
 
 <!-- 탑바 시작 -->
-<header class="top-bar con-min-width">
+<header class="top-bar con-min-width visible-sm-up">
   <div class="con height-100p flex flex-jc-sb">
     <a href="index.ssghtml.php" class="logo">
      <span><i class="fab fa-codepen"></i></i></span>
