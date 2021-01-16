@@ -4,9 +4,9 @@ $siteTitle = "디자이너 김준혁";
 
 // 게시물 2
 $article2 = [];
-$article2["title"] = "자바스크립트 태그";
+$article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
-$article2["writerName"] = "김준혁";
+$article2["writerName"] = "홍길동";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article2["body"] = <<<EOT
 # 개요

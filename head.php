@@ -66,7 +66,7 @@
 <div class="body-content">
 
 <!-- 탑바 시작 -->
-<header class="top-bar con-min-width visible-md-up">
+<header class="top-bar con-min-width">
   <div class="con height-100p flex flex-jc-sb">
     <a href="index.ssghtml.php" class="logo">
      <span><i class="fab fa-codepen"></i></i></span>
@@ -104,9 +104,9 @@
 <!-- 탑바 끝 -->
 
 <!-- 모바일 탑바 시작 -->
-<div class="mobile-top-bar-padding visible-sm-down flex"></div>
+<div class="mobile-top-bar-padding flex"></div>
 
-<header class="mobile-top-bar con-min-width visible-sm-down flex">
+<header class="mobile-top-bar con-min-width flex">
   <div class="flex-1-0-0 flex">
     <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
       <div></div>
@@ -124,7 +124,7 @@
 <!-- 모바일 탑바 끝 -->
 
 <!-- 모바일 사이드 바 시작 -->
-<aside class="mobile-side-bar visible-sm-down">
+<aside class="mobile-side-bar">
 
   <nav class="mobile-side-bar__menu-box-1">
     <ul>
