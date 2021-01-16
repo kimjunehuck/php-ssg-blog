@@ -104,10 +104,10 @@
 <!-- 탑바 끝 -->
 
 <!-- 모바일 탑바 시작 -->
-<div class="mobile-top-bar-padding flex"></div>
+<div class="mobile-top-bar-padding visible-sm-down flex"></div>
 
-<header class="mobile-top-bar con-min-width flex">
-  <div class="flex-1-0-0 flex">
+<header class="mobile-top-bar con-min-width visible-sm-down flex">
+  <div class="flex-1-0-0 flex"> 
     <div class="mobile-top-bar__btn-toggle-side-bar flex-as-c">
       <div></div>
       <div></div>
@@ -124,7 +124,7 @@
 <!-- 모바일 탑바 끝 -->
 
 <!-- 모바일 사이드 바 시작 -->
-<aside class="mobile-side-bar">
+<aside class="mobile-side-bar visible-sm-down">
 
   <nav class="mobile-side-bar__menu-box-1">
     <ul>
