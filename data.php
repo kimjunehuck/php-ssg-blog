@@ -1,6 +1,24 @@
 <?php
 $siteTitle = "디자이너 김준혁";
 
+// 게시물 3
+$article3 = [];
+$article3["id"] = 3;
+$article3["title"] = "display 매우 중요!!";
+$article3["regDate"] = "2020-01-18 21:28";
+$article3["writerName"] = "김준혁";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["body"] = <<<EOT
+# 태그
+# display 
+```codepen
+https://codepen.io/as652993/embed/eYdxGRv?height=265&theme-id=light&default-tab=css,result&editable=true
+```
+```codepen
+https://codepen.io/as652993/embed/OJRdxOK?height=265&theme-id=light&default-tab=css,result&editable=true
+```
+EOT;
+
 // 게시물 2
 $article2 = [];
 $article2["id"] = 2;
