@@ -3,6 +3,7 @@ $siteTitle = "디자이너 김준혁";
 
 // 게시물 2
 $article2 = [];
+$article2["id"] = 1;
 $article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "김준혁";
@@ -25,7 +26,7 @@ EOT;
 
 // 게시물 1
 $article1 = [];
-$article1 [ "id" ] = 2;
+$article2["id"] = 2;
 $article1["title"] = "css 배경색 색깔";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "김준혁";
@@ -46,28 +47,6 @@ https://codepen.io/as652993/embed/RwGePaP?height=265&theme-id=light&default-tab=
 ```
 EOT;
 
-// 게시물 3
-$article1 = [];
-$article1 [ "id" ] = 1;
-$article1["title"] = "css he";
-$article1["regDate"] = "2020-01-12 12:12:14";
-$article1["writerName"] = "김준혁";
-$article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["body"] = <<<EOT
-# 태그
-# HTML h1 사용법
-```codepen
-https://codepen.io/jangka44/embed/RwGewxQ?height=500&theme-id=light&default-tab=html,result
-```
-# 1. CSS 색 넣는법
-```codepen
-https://codepen.io/as652993/embed/XWjxJLq?height=265&theme-id=light&default-tab=css,result&editable=true
-```
-# 2. CSS 배경색 넣는법
-```codepen
-https://codepen.io/as652993/embed/RwGePaP?height=265&theme-id=light&default-tab=css,result&editable=true
-```
-EOT;
 
 if ( isset($articleId) ) {
     $articleVarName = "article" . $articleId;
