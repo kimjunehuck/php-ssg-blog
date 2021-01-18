@@ -3,7 +3,7 @@ $siteTitle = "디자이너 김준혁";
 
 // 게시물 2
 $article2 = [];
-$article2["id"] = 1;
+$article2["id"] = 2;
 $article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "김준혁";
@@ -26,7 +26,7 @@ EOT;
 
 // 게시물 1
 $article1 = [];
-$article2["id"] = 2;
+$article1["id"] = 1;
 $article1["title"] = "css 배경색 색깔";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "김준혁";
