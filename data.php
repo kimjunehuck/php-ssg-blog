@@ -9,7 +9,6 @@ $article3["regDate"] = "2020-01-18 21:28";
 $article3["writerName"] = "김준혁";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article3["body"] = <<<EOT
-# 태그
 # display 
 ```codepen
 https://codepen.io/as652993/embed/eYdxGRv?height=265&theme-id=light&default-tab=css,result&editable=true
@@ -50,7 +49,6 @@ $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "김준혁";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article1["body"] = <<<EOT
-# 태그
 # HTML h1 사용법
 ```codepen
 https://codepen.io/jangka44/embed/RwGewxQ?height=500&theme-id=light&default-tab=html,result
