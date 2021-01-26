@@ -1,5 +1,14 @@
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+<?php
+if ( defined('STDIN') ) {
+    $_GET['id'] = $argv[1];
+}
+
+require_once "data.php";
+require_once "head.php";
+
+$articleId = $_GET['id'];
+$selectedArticle = &getArticleById($articleId);
+?>
 
 <section class="section-title con-min-width">
     <h1 class="con">
@@ -14,13 +23,17 @@
 
 <section class="section-article-detail padding-0-10 con-min-width">
     <div class="con">
-        <h1 class="article-list-box__title"><a href="article_detail_1.ssghtml.php"><?=$selectedArticle["title"]?></a></h1>
+        <h1 class="article-list-box__title"><?=$selectedArticle["title"]?></h1>
 
         <div class="article-list-box__reg-date"><?=$selectedArticle["regDate"]?></div>
         
         <div class="article-list-box__writer">
             <span><?=$selectedArticle["writerName"]?></span>
             <span><?=$selectedArticle["writerAvatar"]?></span>
+        </div>
+
+        <div class="article-list-box__tags">
+            <?=getArticleTagsHtml($selectedArticle["id"])?>
         </div>
         
         <div class="article-list-box__body">
@@ -29,7 +42,6 @@
         </div>
     </div>
 </section>
-
 
 <section class="section-article-reply-box padding-0-10 con-min-width">
     <div class="con">
@@ -49,3 +61,8 @@
     </script>
     </div>
 </section>
+
+
+<?php
+require_once "foot.php";
+?>

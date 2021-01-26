@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, user-scalable=no" />
 
 <!-- 제이쿼리 불러오기 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1a/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 <!-- 폰트어썸 불러오기 -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
@@ -31,11 +31,11 @@
 <script src="https://uicdn.toast.com/editor-plugin-code-syntax-highlight/latest/toastui-editor-plugin-code-syntax-highlight.min.js" defer></script>
 <!-- 토스트 UI 끝 -->
 
-<link rel="stylesheet" href="common.css">
-<script src="common.js" defer></script>
+<link rel="stylesheet" href="/css/common.css">
+<script src="/js/common.js" defer></script>
 
-<link rel="stylesheet" href="index.css">
-<script src="index.js" defer></script>
+<link rel="stylesheet" href="/css/index.css">
+<script src="/js/index.js" defer></script>
 </head>
 <body>
   <!-- 반응형 필수 -->
@@ -158,19 +158,98 @@
 </aside>
 <!-- 모바일 사이드 바 끝 -->
 <hr>
-<main>
-<link rel="stylesheet" href="css/about.css">
-<script src="js/about.js" defer></script>
+<main><link rel="stylesheet" href="css/index.css">
+<script src="js/index.js" defer></script>
 
 <section class="section-title con-min-width">
   <h1 class="con">
     <span>
-      <i class="fas fa-list-ol"></i>
-    </span>
+      <i class="fas fa-fire"></i>
+    </span> 
     <span>
-      PORFOLIO
+      LATEST ARTICLES
     </span>
   </h1>
+</section>
+
+<section class="section-latest-articles con-min-width">
+  <div class="con">
+    <div class="article-list-box">
+      <ul>
+              <li>
+        <h1 class="article-list-box__title"><a href="article_detail_3.html">display 매우 중요!!</a></h1>
+        <div class="article-list-box__reg-date">2020-01-18 21:28</div>
+        <div class="article-list-box__writer">
+        <span>김준혁</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_js.html">#js</a> <a class="tag-link" href="article_list_by_tag_html.html">#html</a>          </div>
+          <div class="article-list-box__body">
+          <script type="text/x-template"># display 
+```codepen
+https://codepen.io/as652993/embed/eYdxGRv?height=265&theme-id=light&default-tab=css,result&editable=true
+```
+```codepen
+https://codepen.io/as652993/embed/OJRdxOK?height=265&theme-id=light&default-tab=css,result&editable=true
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+        <h1 class="article-list-box__title"><a href="article_detail_2.html">자바스크립트 태그 2</a></h1>
+        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+        <div class="article-list-box__writer">
+        <span>김준혁</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_js.html">#js</a>          </div>
+          <div class="article-list-box__body">
+          <script type="text/x-template"># 개요
+- script 태그를 사용해야 한다.
+- src 속성으로 외부 스크립트를 불러올 수 있다.
+- defer 속성으로 html 엘리먼트 로딩까지 실행을 유보시킬 수 있다.
+- 자식 컨텐츠로 자바스크립트를 넣어서 사용할 수 있다.
+  
+# 예시 - 자식 컨텐츠로 자바스크립트를 넣어서 사용
+```html
+<t-script>
+var a = 10;
+</t-script>
+<div class="a"></div>
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+                <li>
+        <h1 class="article-list-box__title"><a href="article_detail_1.html">css 배경색 색깔</a></h1>
+        <div class="article-list-box__reg-date">2020-01-12 12:12:14</div>
+        <div class="article-list-box__writer">
+        <span>김준혁</span>
+            <span><svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg></span>
+          </div>
+          <div class="article-list-box__tags">
+             <a class="tag-link" href="article_list_by_tag_js.html">#js</a>          </div>
+          <div class="article-list-box__body">
+          <script type="text/x-template"># HTML h1 사용법
+```codepen
+https://codepen.io/jangka44/embed/RwGewxQ?height=500&theme-id=light&default-tab=html,result
+```
+# 1. CSS 색 넣는법
+```codepen
+https://codepen.io/as652993/embed/XWjxJLq?height=265&theme-id=light&default-tab=css,result&editable=true
+```
+# 2. CSS 배경색 넣는법
+```codepen
+https://codepen.io/as652993/embed/RwGePaP?height=265&theme-id=light&default-tab=css,result&editable=true
+```</script>
+            <div class="toast-ui-viewer"></div>
+          </div>
+        </li>
+              </ul>
+    </div>
+  </div>
 </section>
 
 </main>
@@ -203,4 +282,4 @@
 
 <!-- 아바타모양 -->
 </body>
-</html> 
+</html>
