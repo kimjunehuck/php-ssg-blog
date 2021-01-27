@@ -5,7 +5,7 @@ $siteTitle = "디자이너 김준혁";
 $siteDescription = "디자이너 김준혁의 기술 블로그 입니다.";
 $siteKeywordsStr = "CSS, HTML, JS";
 $siteName = "DESIGN LEMON";
-$siteThumbUrl = "https://php-ssg-blog/img/logo/logo_main.png";
+$siteThumbUrl = "https://b.tistory.한국/img/logo/logo_main.png";
 
 // 태그정보 시작
 $tagInfos = [
