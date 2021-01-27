@@ -10,12 +10,9 @@ $siteThumbUrl = "https://b.tistory.한국/img/logo/logo_main.png";
 // 태그정보 시작
 $tagInfos = [
     "css" => [
-        "pageThumbUrl" => "https://b.tistory.한국/img/logo/logo_sub.png"
+        "pageThumbUrl" => "https://b.tistory.한국/img/logo/logo_sub.png",
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
-    "html" => [
-        //"pageThumbUrl" => "html 관련 글 전용 이미지"
-    ]
 ];
 // 태그정보 끝
 
