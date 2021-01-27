@@ -6,13 +6,13 @@ if ( defined('STDIN') ) {
 require_once "data.php";
 
 $articleId = $_GET['id'];
-$selectedArticle = &getArticleById($articleId);
-$siteTitle .= " - " . $selectedArticle['title'];
+$selectedArticle = &getForPrintArticleById($articleId);
+$pageTitle = $selectedArticle['pageTitle'];
+$pageThumbUrl = $selectedArticle['pageThumbUrl'];
+$pageDescription = $selectedArticle['pageDescription'];
+$pageKeywordsStr = $selectedArticle['pageKeywordsStr'];
 
 require_once "head.php";
-
-$articleId = $_GET['id'];
-$selectedArticle = &getArticleById($articleId);
 ?>
 
 <section class="section-title con-min-width">
