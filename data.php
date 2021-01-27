@@ -9,8 +9,8 @@ $siteThumbUrl = "https://b.tistory.한국/img/logo/logo_main.png";
 
 // 태그정보 시작
 $tagInfos = [
-    "js" => [
-        //"pageThumbUrl" => "자바스크립트 관련 글 전용 이미지"
+    "css" => [
+        "pageThumbUrl" => "https://b.tistory.한국/img/logo/logo_sub.png"
         //"pageDescription" => "2021년 특별기획, 자바스크립트 관련 강좌 입니다."
     ],
     "html" => [
@@ -26,7 +26,7 @@ $article3["title"] = "display 매우 중요!!";
 $article3["regDate"] = "2020-01-18 21:28";
 $article3["writerName"] = "김준혁";
 $article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article3["tags"] = ["js", "html"];
+$article3["tags"] = ["css"];
 $article3["body"] = <<<'EOT'
 # display 
 ```codepen
@@ -44,7 +44,7 @@ $article2["title"] = "자바스크립트 태그 2";
 $article2["regDate"] = "2020-01-12 12:12:14";
 $article2["writerName"] = "김준혁";
 $article2["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article2["tags"] = ["js"];
+$article2["tags"] = ["css"];
 $article2["body"] = <<<'EOT'
 # 개요
 - script 태그를 사용해야 한다.
@@ -68,7 +68,7 @@ $article1["title"] = "css 배경색 색깔";
 $article1["regDate"] = "2020-01-12 12:12:14";
 $article1["writerName"] = "김준혁";
 $article1["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article1["tags"] = ["js"];
+$article1["tags"] = ["css"];
 $article1["body"] = <<<'EOT'
 # HTML h1 사용법
 ```codepen
