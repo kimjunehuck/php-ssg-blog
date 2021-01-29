@@ -16,6 +16,21 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물 4
+$article3 = [];
+$article3["id"] = 4;
+$article3["title"] = "position 속성 정리";
+$article3["regDate"] = "2020-01-29 14:50";
+$article3["writerName"] = "김준혁";
+$article3["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article3["tags"] = ["css"];
+$article3["body"] = <<<'EOT'
+# position 
+```codepen
+https://codepen.io/as652993/embed/eYBYJVg?height=265&theme-id=light&default-tab=css,result&editable=true
+```
+EOT;
+
 // 게시물 3
 $article3 = [];
 $article3["id"] = 3;
