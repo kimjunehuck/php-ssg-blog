@@ -10,7 +10,6 @@ require_once "head.php";
 <section class="section-1 section con-min-width">
   <div class="con">
    
-  
   </div>
 </section>
 
