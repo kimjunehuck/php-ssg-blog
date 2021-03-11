@@ -432,4 +432,29 @@ a {
 
 /* 게시물 댓글 박스 끝  */
 
+.mobile-porfolio > .img-box > img {
+  width:40%;
+  margin-left:30%;
+  border:1px solid plum;
+}
 
+.mobile-text {
+  font-size:18px;
+  font-weight: bold;
+  color:plum;
+  display:flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.view {
+  font-size:20px;
+  font-weight:bold;
+  display: flex;
+  justify-content: center;
+  margin-top:30px;
+}
+
+.view > span:hover > a {
+  color:red;
+}
