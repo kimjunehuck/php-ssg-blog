@@ -45,7 +45,7 @@ require_once "head.php";
 
 <div class="view">
         <span>
-          <a href="https://b.tistory.xn--3e0b707e/pf/mobile/purple/">더보기</a>
+          <a href="https://b.tistory.xn--3e0b707e/pf/mobile2/cgv/">더보기</a>
         </span>
       </div>
 <?php
