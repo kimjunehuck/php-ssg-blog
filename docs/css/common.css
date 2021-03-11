@@ -347,8 +347,6 @@ a {
   border-top:2px dotted black;
   padding-top:20px;
   padding-bottom:20px;
-  max-height: 400px;
-  overflow: hidden;
 }
 
 .article-list-box__title > a {

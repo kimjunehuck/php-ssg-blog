@@ -16,6 +16,19 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물 5
+$article5 = [];
+$article5["id"] = 5;
+$article5["title"] = "인스타그램 로고3D";
+$article5["regDate"] = "2020-03-31 15:53";
+$article5["writerName"] = "김준혁";
+$article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article5["tags"] = ["일러스트 , 포토샵"];
+$article5["body"] = <<<'EOT'
+# 인스타그램 
+![이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcOAnAC%2FbtqZMnXCmtQ%2FmdzodINrnbtHNFJdbykyw1%2Fimg.png)
+EOT;
+
 // 게시물 4
 $article4 = [];
 $article4["id"] = 4;
