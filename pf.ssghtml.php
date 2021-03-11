@@ -33,10 +33,21 @@ require_once "head.php";
         </span>
       </div>
      
+      <div class="mobile-porfolio">
+      <div class="img-box">
+        <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/php-ssg-blog/img/moblie/cgvfile.png" alt="">
+      </div>
+</div>
 
+<div class="mobile-text">
+ <span>Ch cgv</span>
+</div>
 
-
-
+<div class="view">
+        <span>
+          <a href="https://b.tistory.xn--3e0b707e/pf/mobile/purple/">더보기</a>
+        </span>
+      </div>
 <?php
 require_once "foot.php";
 ?> 

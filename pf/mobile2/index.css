@@ -170,26 +170,34 @@ body::-webkit-scrollbar-button {
   color: red;
 }
 
+.section-5 {
+  margin-top:15px;
+  position: relative;
+}
+
 .section-5 .cgv-part>.cgv-part-1 {
+ 
   margin-top: 7%;
   margin-left: 5%;
   display: block;
 }
 
 .section-5 .cgv-part>.cgv-part-2 {
+
   display: flex;
   justify-content: flex-end;
   margin-top: -24%;
 }
 
 .section-5 .cgv-part>.cgv-part-3 {
-  position: relative;
+
   margin-left: 5%;
   margin-top: -5%;
   display:block;
 }
 
 .section-5 .cgv-part>.cgv-part-4 {
+
   display: flex;
   justify-content: center;
   margin-top: -5%;
@@ -197,6 +205,7 @@ body::-webkit-scrollbar-button {
 }
 
 .section-5 .cgv-part>.cgv-part-5 {
+
   display: flex;
   justify-content: flex-end;
   margin-right: 3%;
