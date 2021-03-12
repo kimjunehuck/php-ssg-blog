@@ -5,7 +5,7 @@
   <div class="con flex flex-jc-c">
     <a href="#" class="logo">
   <span><i class="fab fa-codepen"></i></i></span>
-  <span>Codepen.io</span></a>
+  <span>J.Hpen.io</span></a>
   <div class="bottom-bar__site-info">
   </div>
   </div>
