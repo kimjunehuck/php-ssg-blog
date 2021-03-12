@@ -25,10 +25,9 @@ html {
 }
 
 /* 폰트 적용 끝 */
+
 body {
-  background-image: url(https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png);
-  background-size:1920px;
-  background-repeat: no-repeat repeat;
+  background: linear-gradient(-135deg, #f4d7f3, #fef3fc, #c6c3fb)fixed;
 }
 
 /* 노말라이즈 시작 */
@@ -166,9 +165,10 @@ a {
 
 /* 탑바 시작 */
 .top-bar {
-  background-color: #DDDBEF;
+  background-image: url(https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png);
+  background-size:100%;
   color: #7E00F5;
-  height: 100px;
+  height: 120px;
 }
 
 .top-bar .logo {
@@ -205,7 +205,8 @@ a {
 }
 
 .mobile-top-bar {
-  background-color: #DDDBEF;
+  background-image: url(https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png);
+  background-size:1920px;
   color: #7E00F5;
   height: var(--mobile-top-bar__height);
   position: fixed;
@@ -303,7 +304,8 @@ a {
 
 /* 바텀 탑바 시작 */
 .bottom-bar {
-  background-color: #DDDBEF;
+  background-image: url(https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png);
+  background-size:1920px;
   color: #7E00F5;
   margin-top: 30px;
 }

@@ -16,11 +16,24 @@ $tagInfos = [
 ];
 // 태그정보 끝
 
+// 게시물 6
+$article6 = [];
+$article6["id"] = 6;
+$article6["title"] = "물방울";
+$article6["regDate"] = "2021-03-12 16:43";
+$article6["writerName"] = "김준혁";
+$article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
+$article6["tags"] = ["포토샵"];
+$article6["body"] = <<<'EOT'
+# 물방울 
+![이미지](https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png)
+EOT;
+
 // 게시물 5
 $article5 = [];
 $article5["id"] = 5;
 $article5["title"] = "인스타그램 로고3D";
-$article5["regDate"] = "2020-03-31 15:53";
+$article5["regDate"] = "2021-03-11 15:53";
 $article5["writerName"] = "김준혁";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article5["tags"] = ["일러스트 , 포토샵"];
@@ -33,7 +46,7 @@ EOT;
 $article4 = [];
 $article4["id"] = 4;
 $article4["title"] = "position 속성 정리";
-$article4["regDate"] = "2020-01-29 14:50";
+$article4["regDate"] = "2021-01-29 14:50";
 $article4["writerName"] = "김준혁";
 $article4["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
 $article4["tags"] = ["css"];
