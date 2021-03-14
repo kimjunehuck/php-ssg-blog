@@ -168,7 +168,7 @@
     <!-- 모바일 사이드 바 끝 -->
     <hr>
     <main>
-Notice: Only variable references should be returned by reference in C:\Users\SBS-\Documents\GitHub\php-ssg-blog\app.php on line 172
+Notice: Only variable references should be returned by reference in C:\Users\user\Documents\GitHub\php-ssg-blog\app.php on line 172
 
 <section class="section-title con-min-width">
     <h1 class="con">
