@@ -23,7 +23,8 @@ $article6["title"] = "물방울";
 $article6["regDate"] = "2021-03-12 16:43";
 $article6["writerName"] = "김준혁";
 $article6["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article6["tags"] = ["포토샵"];
+$article6["tags"] = ["
+Photoshop"];
 $article6["body"] = <<<'EOT'
 # 물방울 
 ![이미지](https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/bbc123.png)
@@ -36,10 +37,11 @@ $article5["title"] = "인스타그램 로고3D";
 $article5["regDate"] = "2021-03-11 15:53";
 $article5["writerName"] = "김준혁";
 $article5["writerAvatar"] = '<svg viewBox="0 0 264 280"><use xlink:href="#avatar-1"></use></svg>';
-$article5["tags"] = ["일러스트 , 포토샵"];
+$article5["tags"] = ["illustration", "
+Photoshop"];
 $article5["body"] = <<<'EOT'
 # 인스타그램 
-![이미지](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcOAnAC%2FbtqZMnXCmtQ%2FmdzodINrnbtHNFJdbykyw1%2Fimg.png)
+![이미지](https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/inst.png)
 EOT;
 
 // 게시물 4

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>cgv 서브페이지</title>
+
+  <script>
+    // 주소 뒤에 / 를 붙여주는 코드
+    // 오직 index.html, index.html 에도 추가해주세요.
+    if ( location.pathname.indexOf('index.html') !== -1 && location.pathname.indexOf('index.html') !== -1 && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+  </script>
+          <!-- 제이쿼리 불러오기 -->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      
+          <!-- 스와이퍼 불러오기 시작 -->
+          <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+          <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+          <!-- 스와이퍼 불러오기 끝 -->
+        
+          <!-- 폰트 불러오기 시작-->
+          <link rel="preconnect" href="https://fonts.gstatic.com">
+          <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+          <!-- 폰트 불러오기 끝 -->
+        
+          <!-- gsap 불러오기 시작-->
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+          <!-- gsap 불러오기 끝-->
+      </head>
+<body>
+    <div class="site-wrap">
+        <section class="section-1 section con-min-width">  
+          <div class="cgv_block">
+            </div>
+        </section>
+        <section class="section-2 section con-min-width"><div class="cgv_logo">      
+             <img src="https://img.cgv.co.kr/R2014/images/title/h1_cgv.png" alt="CGV">
+            </div>
+          </section>
+        <section class="section-3 section con-min-width">
+          <div class="cgv_menu">
+            <ul>
+              <li><a href="#">로그인</a></li>
+              <li><a href="#">회원가입</a></li>
+              <li><a href="#">CJ Club서비스</a></li>
+              <li><a href="#">고객센터</a></li>
+            </ul>
+          </div>
+        </section>
+        <section class="section-4 section con-min-width">
+        <div class="cgv_menu2">
+          <ul>
+            <li><a href="https://codepen.io/as652993/debug/vYyVvMX">영화</a></li>
+            <li><a href="https://codepen.io/as652993/debug/PobyLwX">예매</a></li>
+            <li><a href="https://codepen.io/as652993/debug/KKNGEpw">극장</a></li>
+          </ul>
+        </div>
+        </section>
+        <section class="section-5 section con-min-width">
+          <div class="cgv-ka">
+            <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/cgvkaa1_1.png" alt="">
+       </div>
+        </section>
+        <section class="section-6 section con-min-width">
+           <div class="cgv-kb">
+            <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/cgvka1_2.png" alt="">
+       </div>
+      </section>
+      </div>
+</body>
+</html>

@@ -5,28 +5,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>cgv 메인페이지</title>
 
-  <!-- 제이쿼리 불러오기 -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script>
+    // 주소 뒤에 / 를 붙여주는 코드
+    // 오직 index.html, index.ssghtml.php 에도 추가해주세요.
+    if ( location.pathname.indexOf('index.ssghtml.php') !== -1 && location.pathname.indexOf('index.html') !== -1 && location.pathname.substr(-1, 1) != '/' ) { location.replace(location.href + '/'); }
+  </script>
 
-  <!-- 스와이퍼 불러오기 시작 -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- 스와이퍼 불러오기 끝 -->
+    <!-- 제이쿼리 불러오기 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
-  <!-- 폰트 불러오기 시작-->
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
-  <!-- 폰트 불러오기 끝 -->
-
-  <!-- gsap 불러오기 시작-->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
-  <!-- gsap 불러오기 끝-->
-
-  <link rel="stylesheet" href="index.css">
-  <script src="index.js" defer></script>
+    <!-- 스와이퍼 불러오기 시작 -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- 스와이퍼 불러오기 끝 -->
+  
+    <!-- 폰트 불러오기 시작-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!-- 폰트 불러오기 끝 -->
+  
+    <!-- gsap 불러오기 시작-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <!-- gsap 불러오기 끝-->
 </head>
 
 <body>
