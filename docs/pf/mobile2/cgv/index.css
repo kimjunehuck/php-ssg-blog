@@ -46,13 +46,17 @@ body::-webkit-scrollbar-button {
 /* 스크롤바 끝 */
 
 #site-wrap {
-  width:1920px;
+  min-width:1916px;
 }
 
 .site-wrap {
   overflow-x: hidden;
 }
 
+.con-min-width {
+  min-width: 1920px;
+  margin: 0 auto;
+}
 
 .img-box>img {
   display: block;
