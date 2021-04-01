@@ -16,28 +16,11 @@ a {
   text-decoration: none;
 }
 
-::-webkit-scrollbar-track
-  {
-    background-color: white;
-  }
-  
-  ::-webkit-scrollbar
-  {
-    width: 8px;
-    height: 8px;
-    background-color: white;
-  }
-  
-  ::-webkit-scrollbar-thumb
-  {
-    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
-  }
-
 #site-wrap {
-  width: 1660px;
+  width: 1620px;
 }
 
-.img-box > img {
+.img-box>img {
   width: 100%;
   display: block;
 }
@@ -59,7 +42,7 @@ a {
   margin-left: -9px;
 }
 
-.top-menu ul > li {
+.top-menu ul>li {
   color: white;
   margin: 0 16px 0 16px;
   font-size: 15pt;
@@ -82,12 +65,12 @@ a {
   z-index: 100;
 }
 
-.section-1 >.img-box {
+.section-1>.img-box {
   position: relative;
   z-index: 1;
 }
 
-.section-1 >.poter-a {
+.section-1>.poter-a {
   position: absolute;
   color: white;
   font-family: 'Open Sans', sans-serif;
@@ -98,7 +81,7 @@ a {
   z-index: 2;
 }
 
-.section-1 >.poter-b {
+.section-1>.poter-b {
   position: absolute;
   top: 55%;
   left: 43.2%;
@@ -107,113 +90,24 @@ a {
   z-index: 2;
 }
 
-.section-1 >.poter-c {
+.section-1>.poter-c {
   position: absolute;
   top: 43%;
-  left: 48.5%;
+  left: 48%;
   z-index: 2;
 }
 
-.section-1 >.img-box:nth-child(2) {
-  margin-top: -237px;
+.section-1>.img-box:nth-child(2) {
+  margin-top: -354px;
   z-index: -1;
 }
 
-.section-1 >.chjem {
+.section-1>.chjem {
   color: #8a6cf7;
   font-size: 40px;
   position: absolute;
-  top: 109%;
+  top: 111%;
   z-index: 2;
   left: 45%;
   font-weight: bold;
-}
-
-.section-2 {
-  margin-top:100px;
-}
-
-.img-bo > img {
-  width:96%;
-  display: block;
-}
-
-.section-3 {
-  margin-top:120px;
-}
-
-.section-1 > .light-1 {
-  position: absolute;
-  z-index: 8;
-  top:0;
-  transform-origin:right top;
-  opacity:.5;
-  pointer-events:none;
-  animation-name: shaky;
-  animation-duration:3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-fill-mode:forwards;
-  width:100%;
-}
-
-@keyframes shaky {
-  0% {
-    transform:rotate(3deg);
-  }
-  
-  25% {
-    transform:rotate(5deg);
-  }
-  
-  50% {
-    transform:rotate(6deg);
-  }
-  
-  75% {
-    transform:rotate(7deg);
-  }
-  
-  100% {
-    transform:rotate(0deg);
-  }
-}
-
-.section-1 > .light-2 {
-  z-index: 8;
-  position:absolute;
-  opacity: .5;
-  top:0;
-  left:0;
-  transform-origin:left top;
-  position:absolute;
-  pointer-events:none;
-  animation-name: shaky;
-  animation-duration:3s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-  animation-fill-mode:forwards;
-  width:100%;
-}
-
-@keyframes shaky {
-  0% {
-    transform:rotate(2deg);
-  }
-  
-  25% {
-    transform:rotate(4deg);
-  }
-  
-  50% {
-    transform:rotate(6deg);
-  }
-  
-  75% {
-    transform:rotate(4deg);
-  }
-  
-  100% {
-    transform:rotate(2deg);
-  }
 }
