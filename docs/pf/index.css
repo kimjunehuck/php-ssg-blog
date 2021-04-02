@@ -5,8 +5,7 @@ body {
   overflow-x: hidden;
 }
 
-ul,
-li {
+ul,li {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -54,6 +53,16 @@ a {
 
 .img-box>img {
   width: 100%;
+  display: block;
+}
+
+.img-bx > img  {
+  width:25%;
+  display: block;
+}
+
+.section-6 > .img-bx > img {
+  width:29%;
   display: block;
 }
 
@@ -199,18 +208,13 @@ a {
   left: 13%;
 }
 
-.img-bx>img {
-  width: 25%;
-  display: block;
-}
-
 .section-4>.almbo {
   position: absolute;
   left: 38%;
   top: 23%;
 }
 
-.section-4 .almbo>img {
+.section-4 .almbo > img {
   width: 50%;
   display: :block;
 }
@@ -219,4 +223,15 @@ a {
   position: relative;
   z-index: 8;
   margin-top: 300px;
+}
+
+.section-6 {
+  position: relative;
+  left: 13%;
+}
+
+.section-6 > .almbo {
+  position: absolute;
+  left: 38%;
+  top: 23%;
 }
