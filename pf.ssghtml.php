@@ -17,37 +17,35 @@ require_once "head.php";
   </h1>
 </section>
 
-<div class="mobile-porfolio">
-      <div class="img-box">
-        <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/php-ssg-blog/img/moblie/Puple.png" alt="">
-      </div>
-</div>
+<section class="po-intor">
+  <div class="intor">
+  <a href="https://b.tistory.xn--3e0b707e/pf/index.html#page1">
+    <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam3/intro_1.png" alt="">
+  </a>
+  <div class="poins">
+    <ul>
+      <li>J H Portfolio</li>
+      <li class="mid">
+      <a href="https://b.tistory.xn--3e0b707e/pf/index.html#page1">
+        더 보기
+      </a>
+     </li>
+    </ul>
+   </div>
+  </div>
+</section>
 
-<div class="mobile-text">
- <span>Purple Music APP</span>
-</div>
+<section class="po-intor_2">
+  <div class="puple_intor">
+  <a href="https://b.tistory.xn--3e0b707e/pf/mobile/purple/">
+    <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam3/puplebm.png" alt="">
+  </a>
+  <a href="https://b.tistory.xn--3e0b707e/pf/mobile2/cgv/">
+    <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam3/cgvlink.png" alt="">
+  </a>
+  </div>
+</section>
 
-<div class="view">
-        <span>
-          <a href="https://b.tistory.xn--3e0b707e/pf/mobile/purple/">더보기</a>
-        </span>
-      </div>
-     
-      <div class="mobile-porfolio">
-      <div class="img-box">
-        <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/php-ssg-blog/img/moblie/cgvfile.png" alt="">
-      </div>
-</div>
-
-<div class="mobile-text">
- <span>Ch cgv</span>
-</div>
-
-<div class="view">
-        <span>
-          <a href="https://b.tistory.xn--3e0b707e/pf/mobile2/cgv/">더보기</a>
-        </span>
-      </div>
 <?php
 require_once "foot.php";
 ?> 
