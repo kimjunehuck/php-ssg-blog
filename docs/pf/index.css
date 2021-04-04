@@ -79,19 +79,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   margin-left: -9px;
 }
 
 .top-menu ul>li {
-  color: white;
   margin: 0 16px 0 16px;
   font-size: 15pt;
+  color:white;
 }
 
-.top-menu>ul>li>a.active {
-  color: white;
+.top-menu>ul>li:hover>a {
+  color: #8a6cf7;
 }
+
 
 .section-1>.img-box {
   position: relative;
@@ -104,12 +104,10 @@ a {
 }
 
 .section-1>.chjem {
-  color: #8a6cf7;
-  font-size: 40px;
   position: absolute;
-  top: 109%;
+  top: 110%;
   z-index: 2;
-  left: 45%;
+  left: 46%;
   font-weight: bold;
 }
 
@@ -234,4 +232,9 @@ a {
   position: absolute;
   left: 38%;
   top: 23%;
+}
+
+.section-7 {
+  position: relative;
+  margin-top:300px;
 }
