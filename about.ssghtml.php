@@ -26,6 +26,11 @@ require_once "head.php";
     <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FoKQUm%2Fbtq2rytRgox%2FjuqGqdSw7VipfTVp9dPqgK%2Fimg.png" alt="">
   </a>
   </div>
+  <div class="img1">
+  <a href="https://cmb9443.tistory.com/10">
+    <img src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FIz18M%2Fbtq2iep8x1h%2FHI75KohKy0gyeKZZ2jbfS1%2Fimg.png" alt="">
+  </a>
+  </div>
 </section>
 
 <section class="jeb">
