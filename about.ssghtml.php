@@ -20,6 +20,13 @@ require_once "head.php";
     </span>
   </h1>
 </section>
+<section class="jeb3">
+<div class="img1">
+  <a href="https://cmb9443.tistory.com/82">
+    <img src="https://cdn.jsdelivr.net/gh/kimjunehuck/img-4/exam/exam2/Frame_4.png" alt="">
+  </a>
+  </div>
+</section>
 <section class="jeb2">
 <div class="img1">
   <a href="https://cmb9443.tistory.com/65">
